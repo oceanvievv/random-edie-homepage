@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content-wrapper {
+  width: 100%;
+  max-width: 1332px;
+}
+.inner-content-wrapper {
+  width: 100%;
+  max-width: 1110px;
+}
+.double-inner-content-wrapper {
+  width: 100%;
+  max-width: 990px;
+}
+
+
+@media (max-width: 1024px) {
+  .content-wrapper {
+    width: 100%;
+    max-width: calc(100% - 80px);
+  }
+}
+
+@media (max-width: 475px) {
+  .content-wrapper {
+    max-width: calc(100% - 24px);
+  }
+}

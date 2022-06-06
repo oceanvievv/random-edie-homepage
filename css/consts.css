@@ -1,0 +1,96 @@
+/* Consts */
+:root {
+  /* Text font-sizes & line-heights */
+  --text-fs-xxxl: 48px;
+  --text-lh-xxxl: 72px;
+
+  --text-fs-xxl: 36px;
+  --text-lh-xxl: 53px;
+
+  --text-fs-xl: 24px;
+  --text-lh-xl: 36px;
+
+  --text-fs-l: 18px;
+  --text-lh-l: 27px;
+
+  --text-fs-m: 16px;
+  --text-lh-m: 24px;
+
+  --text-fs-s: 14px;
+  --text-lh-s: 21px;
+  --text-lh-s-smaller: 21px;
+
+  --text-fs-xs: 12px;
+  --text-lh-xs: 18px;
+
+  --text-fs-xxs: 10px;
+  --text-lh-xxs: 15px;
+
+  /* Colors */
+  --color-night-rider: #333333;
+  --color-summer-sky: #2D9CDB;
+  --color-matterhorn: #4F4F4F;
+  --color-grey: #828282;
+  --color-silver: #BDBDBD;
+  --color-white-smoke: #F2F2F2;
+  --color-jungle-green: #27AE60;
+  --color-burnt-sienna: #EB5757;
+  --color-sea-gainsboro: #E0E0E0;
+  --color-midnight-express: #100E1D;
+  --color-white: white;
+}
+
+/* Text */
+.page-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* Text colors */
+.color-cape-cod {
+  color: var(--color-cape-cod);
+}
+.color-night-rider {
+  color: var(--color-night-rider);
+}
+.color-matterhorn {
+  color: var(--color-matterhorn);
+}
+.color-grey {
+  color: var(--color-grey);
+}
+.color-sea-buckthorn {
+  color: var(--color-sea-buckthorn);
+}
+.color-white {
+  color: var(--color-white);
+}
+.color-silver {
+  color: var(--color-silver);
+}
+
+/* Background colors */
+.background-summer-sky {
+  background-color: var(--color-summer-sky);
+}
+.background-jungle-green {
+  background-color: var(--color-jungle-green);
+}
+.background-burnt-sienna {
+  background-color: var(--color-burnt-sienna);
+}
+
+/* Text decorations */
+.text-bold {
+  font-weight: 700;
+}
+.text-semi-bold {
+  font-weight: 500;
+}
+.text-light {
+  font-weight: 300;
+}
+.text-underline {
+  text-decoration: underline;
+}
