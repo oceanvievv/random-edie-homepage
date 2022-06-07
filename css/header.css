@@ -8,6 +8,8 @@
 
   margin-top: 42px;
   margin-bottom: 42px;
+
+  position: sticky;
 }
 .header__logo-wrapper {
   display: flex;

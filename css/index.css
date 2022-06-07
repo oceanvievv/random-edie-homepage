@@ -16,6 +16,8 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+
+  position: relative;
 }
 .double-inner-content-wrapper {
   width: 100%;
