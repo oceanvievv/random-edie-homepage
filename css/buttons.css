@@ -1,0 +1,31 @@
+.base-button {
+  width: 100%;
+
+  border: none;
+  border-radius: 12px;
+
+  color: var(--color-white-smoke);
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--text-fs-l);
+  line-height: var(--text-lh-l);
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+.promo__email-input-button {
+  max-width: 94px;
+  min-height: 44px;
+}
+.offers__button {
+  max-width: 116px;
+  min-height: 42px;
+
+  font-size: var(--text-fs-m);
+  line-height: var(--text-lh-m);
+
+  transition: all 0.3s ease-in-out;
+}

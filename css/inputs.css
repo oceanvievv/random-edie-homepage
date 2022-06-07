@@ -1,0 +1,24 @@
+.promo__email-input-wrapper input {
+  width: 100%;
+  max-width: 230px;
+  max-height: 27px;
+
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--text-fs-l);
+  line-height: var(--text-lh-l);
+
+  padding-left: 21px;
+
+  box-sizing: border-box;
+}
+.promo__email-input-wrapper input::placeholder {
+  color: var(--color-silver);
+}

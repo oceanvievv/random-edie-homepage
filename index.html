@@ -10,9 +10,15 @@
 
   <!-- CSS -->
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/index.css">
+
+  <link rel="stylesheet" href="css/buttons.css">
   <link rel="stylesheet" href="css/consts.css">
   <link rel="stylesheet" href="css/copyright.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/inputs.css">
+  <link rel="stylesheet" href="css/offers.css">
+  <link rel="stylesheet" href="css/promo.css">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,16 +27,143 @@
   
 </head>
 
-<body class="page-text">
+<body class="page-text color-night-rider">
   <div class="container">
     <div class="content-wrapper">
 
+      <!-- Header -->
+      <div class="header-wrapper">
+        <div class="header__logo-wrapper">
+          Edie
+        </div>
+        <div class="header__nav-wrapper">
+          <a href="/" class="header__nav_item color-night-rider text-semi-bold">
+            Home
+          </a>
+          <a href="/services" class="header__nav_item color-night-rider text-semi-bold">
+            Services
+          </a>
+          <a href="/our-works" class="header__nav_item color-night-rider text-semi-bold">
+            Our works
+          </a>
+          <a href="/clinets" class="header__nav_item color-night-rider text-semi-bold">
+            Clients
+          </a>
+          <a href="/contact" class="header__nav_item color-night-rider text-semi-bold">
+            Contact
+          </a>
+        </div>
+      </div>
+
+      <!-- Promo -->
+      <div class="promo-wrapper">
+        <div class="double-inner-content-wrapper">
+          <div class="promo__title-part">
+            <div class="promo__note color-summer-sky text-semi-bold">
+              Unhappy with your website?
+            </div>
+            <div class="promo__title text-semi-bold">
+              We create beautiful <br>
+              and fast web services
+            </div>
+          </div>
+        </div>
+        <div class="promo__image-wrapper">
+          <img src="images/heroImage.jpg" alt="We">
+        </div>
+        <div class="double-inner-content-wrapper">
+          <div class="promo__title-part">
+            <div class="promo__title text-semi-bold">
+              Story, emotion <br>
+              and purpose
+            </div>
+            <div class="promo__text color-matterhorn">
+              We help transform your ideas into real world applications that will outperform your toughest competition and help you achieve your strategic goals in short period of time.
+            </div>
+          </div>
+          <div class="promo__email-part">
+            <label class="promo__email-input color-grey text-semi-bold">
+              <div class="promo__email-note">
+                Want us to contact you?
+              </div>
+              <form class="promo__email-input-wrapper background-white-smoke">
+                <input type="email" placeholder="Email">
+                <button type="submit" class="base-button promo__email-input-button background-summer-sky">Join</button>
+              </form>
+            </label>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Offers -->
+      <div class="offers-wrapper">
+        <div class="inner-content-wrapper">
+          <div class="offers__title text-semi-bold">
+            We offer high <br>
+            demand services
+          </div>
+          <div class="offers__cards-wrapper">
+            <div class="offers__card-wrapper">
+              <div class="offers__icon-wrapper background-summer-sky">
+                <img src="icons/pen.svg" alt="UI/UX Design">
+              </div>
+              <div class="offers__subtitle text-bold">
+                UI/UX Design
+              </div>
+              <div class="offers__text color-matterhorn">
+                Lorem ipsum dolor sit amet, <br>
+                consectetur adipiscing elit. Duis a <br>
+                metus ac nulla consequat aliquet <br>
+                id quis turpis.
+              </div>
+              <button class="base-button offers__button background-sea-gainsboro color-grey">
+                Get started
+              </button>
+            </div>
+            <div class="offers__card-wrapper">
+              <div class="offers__icon-wrapper background-jungle-green double-icon">
+                <img src="icons/double-arrows.svg" alt="Front End">
+              </div>
+              <div class="offers__subtitle text-bold">
+                Front End
+              </div>
+              <div class="offers__text color-matterhorn">
+                Lorem ipsum dolor sit amet, <br>
+                consectetur adipiscing elit. Duis a <br>
+                metus ac nulla consequat aliquet <br>
+                id quis turpis.
+              </div>
+              <button class="base-button offers__button background-sea-gainsboro color-grey">
+                Get started
+              </button>
+            </div>
+            <div class="offers__card-wrapper">
+              <div class="offers__icon-wrapper background-burnt-sienna double-icon">
+                <img src="icons/storage.svg" alt="Back End">
+              </div>
+              <div class="offers__subtitle text-bold">
+                Back End
+              </div>
+              <div class="offers__text color-matterhorn">
+                Lorem ipsum dolor sit amet, <br>
+                consectetur adipiscing elit. Duis a <br>
+                metus ac nulla consequat aliquet <br>
+                id quis turpis.
+              </div>
+              <button class="base-button offers__button background-sea-gainsboro color-grey">
+                Get started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- Copyright -->
-      <div class="copyright">
+      <!-- <div class="copyright">
         <p class="copyright__text text-semi-bold color-silver">
           created by <span class="text-bold text-underline">oceanvievv</span> - KQsquad
         </p>
-      </div>
+      </div> -->
     </div>
   </div>
 </body>

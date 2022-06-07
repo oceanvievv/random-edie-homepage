@@ -38,6 +38,7 @@
   --color-sea-gainsboro: #E0E0E0;
   --color-midnight-express: #100E1D;
   --color-white: white;
+  --color-black: black;
 }
 
 /* Text */
@@ -48,11 +49,11 @@
 }
 
 /* Text colors */
-.color-cape-cod {
-  color: var(--color-cape-cod);
-}
 .color-night-rider {
   color: var(--color-night-rider);
+}
+.color-summer-sky {
+  color: var(--color-summer-sky);
 }
 .color-matterhorn {
   color: var(--color-matterhorn);
@@ -60,11 +61,11 @@
 .color-grey {
   color: var(--color-grey);
 }
-.color-sea-buckthorn {
-  color: var(--color-sea-buckthorn);
+.color-white-smoke {
+  color: var(--color-white-smoke);
 }
-.color-white {
-  color: var(--color-white);
+.color-black {
+  color: var(--color-black);
 }
 .color-silver {
   color: var(--color-silver);
@@ -79,6 +80,12 @@
 }
 .background-burnt-sienna {
   background-color: var(--color-burnt-sienna);
+}
+.background-white-smoke {
+  background-color: var(--color-white-smoke);
+}
+.background-sea-gainsboro {
+  background-color: var(--color-sea-gainsboro);
 }
 
 /* Text decorations */
