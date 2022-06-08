@@ -7,6 +7,10 @@
 .content-wrapper {
   width: 100%;
   max-width: 1332px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .inner-content-wrapper {
   width: 100%;
