@@ -6,6 +6,8 @@
   margin-bottom: 220px;
 }
 .examples__title {
+  align-self: flex-start;
+
   font-size: var(--text-fs-xxl);
   line-height: var(--text-lh-xxl);
 

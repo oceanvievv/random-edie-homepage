@@ -9,6 +9,13 @@
   margin-top: 104px;
   margin-bottom: 200px;
 }
+.promo__title-part-wrapper {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
 .promo__title-part {
   display: flex;
   flex-direction: column;
@@ -43,6 +50,10 @@
 }
 .promo__email-part {
   width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
 
   max-width: 350px;
 }

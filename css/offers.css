@@ -1,4 +1,6 @@
 .offers-wrapper {
+  width: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,6 +8,8 @@
   margin-bottom: 194px;
 }
 .offers__title {
+  align-self: flex-start;
+
   font-size: var(--text-fs-xxl);
   line-height: var(--text-lh-xxl);
 
@@ -33,6 +37,8 @@
   box-sizing: border-box;
 
   transition: all 0.3s ease-in-out;
+
+  cursor: pointer;
 }
 .offers__card-wrapper:hover {
   box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);

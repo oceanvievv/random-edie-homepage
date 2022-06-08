@@ -70,6 +70,9 @@
 .color-silver {
   color: var(--color-silver);
 }
+.color-white {
+  color: var(--color-white);
+}
 .color-burnt-sienna {
   color: var(--color-burnt-sienna);
 }
@@ -89,6 +92,9 @@
 }
 .background-sea-gainsboro {
   background-color: var(--color-sea-gainsboro);
+}
+.background-midnight-express {
+  background-color: var(--color-midnight-express);
 }
 
 /* Text decorations */
