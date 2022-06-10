@@ -22,3 +22,16 @@
 .promo__email-input-wrapper input::placeholder {
   color: var(--color-silver);
 }
+
+@media (max-width: 475px) {
+  .promo__email-input-wrapper input {
+    width: 100%;
+    max-width: 218px;
+    max-height: 18px;
+  
+    font-size: var(--text-fs-s);
+    line-height: var(--text-lh-s);
+  
+    padding-left: 19px;
+  }
+}

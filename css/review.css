@@ -35,7 +35,6 @@
 }
 .person__photo-wrapper img {
   width: 100%;
-  height: 100%;
 
   border-radius: 12px;
 }
@@ -55,4 +54,25 @@
 .person__company {
   font-size: var(--text-fs-l);
   line-height: var(--text-lh-l);
+}
+
+@media (max-width: 475px) {
+  .review-wrapper {
+    margin-bottom: 100px;
+  }
+  .review-content-wrapper {
+    gap: 27px;
+  }
+  .review__title {
+    max-width: 100%;
+  
+    font-size: var(--text-fs-xl);
+    line-height: var(--text-lh-xl);
+  }
+  .person__photo-wrapper {
+    min-width: 82px;
+  }
+  .person__info {
+    gap: 10px;
+  }
 }

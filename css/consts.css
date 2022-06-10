@@ -96,6 +96,9 @@
 .background-midnight-express {
   background-color: var(--color-midnight-express);
 }
+.background-white {
+  background-color: var(--color-white);
+}
 
 /* Text decorations */
 .text-bold {

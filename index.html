@@ -57,6 +57,9 @@
             Contact
           </a>
         </div>
+        <div class="header__burger-wrapper" onclick="toggleMobileNav()">
+          <img src="icons/burger.svg" alt="Nav">
+        </div>
       </div>
 
       <!-- Promo -->
@@ -119,9 +122,9 @@
                 UI/UX Design
               </div>
               <div class="offers__text color-matterhorn">
-                Lorem ipsum dolor sit amet, <br>
-                consectetur adipiscing elit. Duis a <br>
-                metus ac nulla consequat aliquet <br>
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet
                 id quis turpis.
               </div>
               <button class="base-button offers__button background-sea-gainsboro color-grey">
@@ -136,9 +139,9 @@
                 Front End
               </div>
               <div class="offers__text color-matterhorn">
-                Lorem ipsum dolor sit amet, <br>
-                consectetur adipiscing elit. Duis a <br>
-                metus ac nulla consequat aliquet <br>
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet
                 id quis turpis.
               </div>
               <button class="base-button offers__button background-sea-gainsboro color-grey">
@@ -153,9 +156,9 @@
                 Back End
               </div>
               <div class="offers__text color-matterhorn">
-                Lorem ipsum dolor sit amet, <br>
-                consectetur adipiscing elit. Duis a <br>
-                metus ac nulla consequat aliquet <br>
+                Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit. Duis a
+                metus ac nulla consequat aliquet
                 id quis turpis.
               </div>
               <button class="base-button offers__button background-sea-gainsboro color-grey">
@@ -331,7 +334,7 @@
         </div>
         <div class="promo__email-part">
           <label class="promo__email-input color-grey text-semi-bold">
-            <div class="promo__email-note color-white">
+            <div class="promo__email-note color-grey">
               Want us to contact you?
             </div>
             <form class="promo__email-input-wrapper background-white-smoke">
@@ -350,6 +353,31 @@
       </div>
     </div>
   </div>
+
+  <div id="mobileNav" class="header__nav-mobile background-white disabled">
+    <div class="header__nav-wrapper_mobile">
+      <a href="/" class="header__nav_item color-night-rider text-semi-bold">
+        Home
+      </a>
+      <a href="/services" class="header__nav_item color-night-rider text-semi-bold">
+        Services
+      </a>
+      <a href="/our-works" class="header__nav_item color-night-rider text-semi-bold">
+        Our works
+      </a>
+      <a href="/clinets" class="header__nav_item color-night-rider text-semi-bold">
+        Clients
+      </a>
+      <a href="/contact" class="header__nav_item color-night-rider text-semi-bold">
+        Contact
+      </a>
+    </div>
+    <div class="header__close-btn">
+      <img src="icons/close.svg" alt="Close nav" onclick="toggleMobileNav()">
+    </div>
+  </div>
+
+  <script src="js/toggleMobileNav.js"></script>
 </body>
 
 </html>

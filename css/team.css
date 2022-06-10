@@ -62,5 +62,23 @@
   justify-content: flex-start;
 }
 .team__photo-wrapper img {
+  width: 100%;
+
   border-radius: 24px;
+}
+
+@media (max-width: 475px) {
+  .team-wrapper {
+    margin-bottom: 100px;
+  }
+  .team-content-wrapper {
+    justify-content: unset;
+    gap: 36px;
+  }
+  .team__photos-part {
+    gap: 9px;
+  }
+  .team__photos-column2 {
+    gap: 9px;
+  }
 }

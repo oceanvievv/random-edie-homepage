@@ -29,3 +29,29 @@
 
   transition: all 0.3s ease-in-out;
 }
+.header__close-btn {
+  width: 18px;
+  height: 18px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: fixed;
+  top: 18px;
+  right: 14px;
+}
+.header__close-btn img {
+  width: 100%;
+}
+
+@media (max-width: 475px) {
+  .base-button {
+    font-size: var(--text-fs-s);
+    line-height: var(--text-lh-s);
+  }
+  .promo__email-input-button {
+    max-width: 71px;
+    min-height: 39px;
+  }
+}

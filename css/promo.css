@@ -37,6 +37,8 @@
   margin-bottom: 42px;
 }
 .promo__image-wrapper img {
+  width: 100%;
+
   border-radius: 18px;
 }
 .promo__text {
@@ -84,4 +86,53 @@
 .promo__email-note {
   font-size: var(--text-fs-s);
   line-height: var(--text-lh-s);
+}
+
+@media (max-width: 475px) {
+  .promo-wrapper {
+    margin-top: 8px;
+    margin-bottom: 102px;
+  }
+  .promo__note {
+    font-size: var(--text-fs-xs);
+    line-height: var(--text-lh-xs);
+  
+    margin-bottom: 0;
+  }
+  .promo__title {
+    font-size: var(--text-fs-xl);
+    line-height: var(--text-lh-xl);
+  }
+  .promo__image-wrapper {
+    margin-top: 15px;
+    margin-bottom: 22px;
+  }
+  .promo__text {
+    max-width: 275px;
+  
+    font-size: var(--text-fs-xs);
+    line-height: var(--text-lh-xs);
+  
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .promo__email-part {
+    max-width: 291px;
+  }
+  .promo__email-input {
+    gap: 7px;
+  }
+  .promo__email-input-wrapper {
+    height: 47px;
+  }
+  .promo__email-note {
+    font-size: var(--text-fs-xxs);
+    line-height: var(--text-lh-xxs);
+  }
+}
+
+@media (max-width: 475px) {
+  .promo__email-part {
+    max-width: 261px;
+  }
 }
