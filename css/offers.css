@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
 
-  margin-bottom: 194px;
+  margin-bottom: 146px;
 }
 .offers__title {
   align-self: flex-start;
@@ -22,10 +22,11 @@
   flex-direction: row;
   flex-wrap: wrap;
 
-  justify-content: space-between;
+  gap: 40px;
 }
 .offers__card-wrapper {
   width: calc(100% / 3 - 32px);
+  min-width: 300px;
   
   display: flex;
   flex-direction: column;
@@ -41,7 +42,7 @@
   cursor: pointer;
 }
 .offers__card-wrapper:hover {
-  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  box-shadow: 0 10px 30px rgba(51, 51, 51, 0.1);
 }
 .offers__card-wrapper:hover .offers__button {
   background-color: var(--color-summer-sky);
@@ -88,14 +89,8 @@
   .offers__title {
     font-size: var(--text-fs-xl);
     line-height: var(--text-lh-xl);
-    
-    margin: 0 20px;
-    margin-bottom: 46px;
-  }
-  .offers__cards-wrapper {
-    justify-content: unset;
 
-    gap: 40px;
+    margin: 0 20px 46px;
   }
   .offers__card-wrapper {
     width: 100%;

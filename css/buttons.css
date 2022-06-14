@@ -30,22 +30,29 @@
   transition: all 0.3s ease-in-out;
 }
 .header__close-btn {
-  width: 18px;
-  height: 18px;
+  width: 28px;
+  height: 28px;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
   position: fixed;
-  top: 18px;
-  right: 14px;
+  top: 34px;
+  right: 50px;
 }
 .header__close-btn img {
   width: 100%;
 }
 
 @media (max-width: 475px) {
+  .header__close-btn {
+    width: 22px;
+    height: 22px;
+
+    top: 20px;
+    right: 20px;
+  }
   .base-button {
     font-size: var(--text-fs-s);
     line-height: var(--text-lh-s);

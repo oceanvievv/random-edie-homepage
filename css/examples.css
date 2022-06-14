@@ -34,7 +34,7 @@
   color: inherit;
 }
 .examples__card-wrapper:nth-child(odd) {
-  margin-top: 176px;
+  margin-top: 15%;
 }
 .examples__card-img-wrapper {
   width: 100%;
